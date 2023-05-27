@@ -3,7 +3,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #ffffff;
+  background: #000c24;
   color:  #ffffff;
   font-family: "Poppins", helvetica;
   font-size: 15px;
@@ -806,13 +806,13 @@ p {
 #journal-blog {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  background: #000c24;;
   padding-bottom: 60px;
   position: relative;
 }
 
 #journal-blog {
-  background: #fff;
+  background: #000c24;;
   padding-bottom: 30px;
 }
 
@@ -835,18 +835,27 @@ p {
   position: relative;
 }
 
-.journal-block .journal-info .journal-txt h4 a {
+.journal-block .journal-info .journal-txt h4 a , h5 {
   display: block;
   font-size: 19px;
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: #3875d0;
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt h4 a:hover {
-  color: #082032;
+.journal-block .journal-info  h5 {
+  color: #3875d0;
+}
+
+.journal-block .journal-info .journal-txt h4 a:hover, h5 {
+  color: #1d5a89 !important;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.journal-block .journal-info .journal-txt h5 {
+  color: #1d5a89 ;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -854,6 +863,7 @@ p {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
@@ -979,8 +989,8 @@ p {
   font-size: 19px;
   line-height: 24px;
   margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
+  font-weight: 600;
+  color: #fff;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1554,4 +1564,38 @@ blockquote {
     display: inline-block;
     margin-right: 0;
   }
+}
+
+#footer {
+  display: none;
+}
+
+.img-blog{
+  display: block;
+  margin: auto;
+}
+
+.single-main{
+  background-color: white;
+  padding: 40px 0px;
+}
+
+.journal-txt p{
+  text-align: justify;
+}
+
+
+.single-post p, h5, blockquote{
+  color: #292929;
+  font-size: 15px;
+}
+
+#journal-block {
+  background: #000c24;
+}
+
+.title-post {
+  color: #011e57;
+  font-size: 20px;
+  text-align: center;
 }
