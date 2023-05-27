@@ -4,7 +4,7 @@ html, body {
   height: 100%;
 }
 
-body {
+.error-page {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/257418/andy-holmes-698828-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,14 +12,15 @@ body {
   min-width: 100vw;
   font-family: "Roboto Mono", "Liberation Mono", Consolas, monospace;
   color: rgba(255, 255, 255, 0.87);
+  line-height: 40px;
 }
 
-.mx-auto {
+.error-page .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.container,
+.error-page .container,
 .container > .row,
 .container > .row > div {
   height: 100%;
@@ -42,4 +43,9 @@ body {
 #countUp .text {
   font-weight: 300;
   text-align: center;
+}
+
+#header h1 a{
+  font-family: "Poppins", sans-serif;
+
 }
